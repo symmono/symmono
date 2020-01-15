@@ -1,0 +1,16 @@
+/vendor
+
+composer.lock
+phpunit.xml
+.php_cs.cache
+.phpunit.result.cache
+composer.phar
+package.tar
+/packages.json
+/.phpunit
+
+.idea/*
+!.idea/symfony2.xml
+!.idea/misc.xml
+
+*.DS_Store

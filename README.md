@@ -1,0 +1,2 @@
+# symmono
+MonoRepo Setup

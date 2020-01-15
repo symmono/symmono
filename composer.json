@@ -1,0 +1,46 @@
+{
+    "name": "symmono/symmono",
+    "type": "library",
+    "description": "The Symmono monorepo library",
+    "keywords": [
+        "framework",
+        "development",
+        "project",
+        "web",
+        "web-development"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bertin van den Ham"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "symmono/page-bundle": "*@dev"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Symmono\\Bundle\\": "lib/Symmono/Bundle/",
+            "Symmono\\Component\\": "lib/Symmono/Component/"
+        },
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "lib/Symmono/Bundle/*"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
