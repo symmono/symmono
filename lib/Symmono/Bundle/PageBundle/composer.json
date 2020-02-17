@@ -14,13 +14,19 @@
     },
     "require-dev": {},
     "autoload": {
-        "psr-4": {
+        "psr    -4": {
             "Symmono\\Bundle\\PageBundle\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
         ]
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "git@github.com:symmono/page-bundle.git"
+        }
+    ],
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
