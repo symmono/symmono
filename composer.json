@@ -21,9 +21,7 @@
     "replace": {
         "symmono/page-bundle": "self.version"
     },
-    "require-dev": {
-
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
             "Symmono\\Bundle\\": "lib/Symmono/Bundle/",

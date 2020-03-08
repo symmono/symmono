@@ -21,12 +21,6 @@
             "/Tests/"
         ]
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "git@github.com:symmono/page-bundle.git"
-        }
-    ],
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
