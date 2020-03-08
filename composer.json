@@ -18,6 +18,9 @@
     "require": {
         "php": "^7.2.5"
     },
+    "replace": {
+        "symmono/page-bundle": "self.version"
+    },
     "require-dev": {
 
     },
@@ -39,7 +42,7 @@
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "dev-master": "0.2-dev"
         }
     }
 }
