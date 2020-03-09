@@ -21,6 +21,7 @@
             "/Tests/"
         ]
     },
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {

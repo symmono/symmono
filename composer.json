@@ -37,6 +37,7 @@
             "url": "lib/Symmono/Bundle/*"
         }
     ],
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
