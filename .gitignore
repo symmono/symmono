@@ -1,16 +1,21 @@
+ # composer
 /vendor
-
 composer.lock
-phpunit.xml
-.php_cs.cache
-.phpunit.result.cache
 composer.phar
-package.tar
-/packages.json
-/.phpunit
 
+# node
+/node_modules
+package-lock.json
+
+# phpstorm
 .idea/*
 !.idea/symfony2.xml
 !.idea/misc.xml
+
+# phpunit
+.phpunit.result.cache
+phpunit.xml
+.php_cs.cache
+/.phpunit
 
 *.DS_Store
