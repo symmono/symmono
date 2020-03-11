@@ -21,3 +21,4 @@ phpunit.xml
 *.DS_Store
 
 # contributing master
+# contributing branch 0.1 tag 0.1.0 => 0.1.1
