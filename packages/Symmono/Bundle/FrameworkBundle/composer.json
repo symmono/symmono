@@ -1,0 +1,32 @@
+{
+    "name": "symmono/framework-bundle",
+    "type": "symfony-bundle",
+    "description": "Symmono FrameworkBundle",
+    "keywords": ["framework", "bundle", "framework-bundle"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bertin van den Ham"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "symmmono/page-bundle": "^0.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Symmono\\Bundle\\FrameworkBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
