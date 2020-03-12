@@ -13,6 +13,7 @@
         "php": "^7.2.5"
     },
     "replace": {
+        "symmono/framework-bundle": "self.version",
         "symmono/page-bundle": "self.version"
     },
     "require-dev": {},
