@@ -18,7 +18,7 @@ namespace Symmono\Bundle\FrameWorkBundle;
  */
 class FrameworkBundle
 {
-
+    // Testing splitting
+    // Testing monorepo setup with symmono-dev as dev project
+    // monorepo tests
 }
-
-// Testing splitting
