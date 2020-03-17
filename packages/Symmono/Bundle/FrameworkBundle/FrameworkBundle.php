@@ -1,4 +1,3 @@
-
 <?php
 /*
  * This file is part of the Symmono package.
@@ -21,6 +20,4 @@ class FrameworkBundle
     // Testing splitting
     // Testing monorepo setup with symmono-dev as dev project
     // monorepo tests
-
-    // testing split again 222
 }
