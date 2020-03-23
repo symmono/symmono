@@ -15,7 +15,9 @@
     "replace": {
         "symmono/framework-bundle": "self.version"
     },
-    "require-dev": {},
+    "require-dev": {
+        "symplify/monorepo-builder": "^7.2"
+    },
     "autoload": {
         "psr-4": {
             "Symmono\\Bundle\\": "packages/Symmono/Bundle/",

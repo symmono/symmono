@@ -1,0 +1,15 @@
+# monorepo-builder.yml
+parameters:
+    package_alias_format: '<major>.<minor>-dev' # default: "<major>.<minor>-dev"
+
+    package_directories:
+        - 'packages/Symmono/Bundle'
+        - 'packages/Symmono/Component'
+
+    # add these to merge of packages' composer.json
+    data_to_append:
+        "minimum-stability": "dev"
+        "prefer-stable": true
+
+    directories_to_repositories:
+        packages/Symmono/Bundle/FrameworkBundle: 'git@github.com:symmono/framework-bundle.git'
