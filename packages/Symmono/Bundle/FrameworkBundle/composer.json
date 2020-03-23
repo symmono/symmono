@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.2.5"
     },
-    "require-dev": {},
+    "require-dev": [],
     "autoload": {
         "psr-4": {
             "Symmono\\Bundle\\FrameworkBundle\\": ""
